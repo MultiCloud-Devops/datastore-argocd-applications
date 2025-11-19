@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default # ArgoCD project
   source:
-    repoURL: https://github.com/shivagande26/Kubernetes.git # Replace with your Git repo URL
+    repoURL: https://github.com/MultiCloud-Devops/datastore-Kubernetes.git # Replace with your Git repo URL
     targetRevision: main # Git branch or commit (e.g., main, develop)
     path: mysql # Path to the application resources in the repo
   destination:
